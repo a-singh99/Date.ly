@@ -1,0 +1,23 @@
+{
+  "name": "final_project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node back/server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bookshelf": "^0.10.3",
+    "knex": "^0.12.8",
+    "pg": "^6.1.5",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.17.1",
+    "cors": "^2.8.1",
+    "express": "^4.15.2",
+    "jsonwebtoken": "^7.3.0",
+    "request": "^2.81.0"
+  }
+}

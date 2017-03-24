@@ -1,0 +1,75 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.clearfix:after {
+   content: " "; /* Older browser do not support empty content */
+   visibility: hidden;
+   display: block;
+   height: 0;
+   clear: both;
+}
+.header {
+  background-color: #222;
+  height: 10vh;
+  color: white;
+  opacity: 0.91;
+}
+
+.appBtn {
+  background: 0;
+  margin: 30px;  
+  outline:0;
+  border:0;
+  padding-top:7px;
+}
+.appBtn:focus{
+  background: 0;
+}
+.appText {
+  font-family: 'Lobster', cursive;
+  font-size: 30px;
+  position: relative;
+  display: inline;
+  bottom: 21px;
+  color:#d40d12;
+}
+
+.header img  {
+  height: auto;
+  width: 155px;
+  /*display: inline;*/
+ }
+
+.headerSignup, .headerLogin, .headerSignout, .headerAccount{
+  float: right;
+  /*margin: 18px 0;*/
+}
+
+.headerBtn {
+  background: 0;
+  outline-style: none;
+  padding: 10px 10px;
+  border: 0;
+  color: #FFF;
+  margin: 1.3% 1.3%;
+}
+.headerBtn a {
+  color: #FFF;
+}
+.headerBtn a:hover {
+  text-decoration: none;
+  color: red; 
+  transition: all 0.3s;
+}
+
+.headerBtn:focus{
+  background:0;
+}
+
+.headerSignup {
+  border: 1px solid white;
+  border-radius: 10px;
+  padding: 10px 30px;
+}
